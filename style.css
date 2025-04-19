@@ -4,7 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
-nav.navbar.bg-body-tertiary.fixed-top {
+nav.navbar.bg-body-tertiary{
     background-color: #D8AF9D !important; /* Certifique-se de que não há cor de fundo que pareça uma borda */
     height: 100px !important; /* Altura do navbar */
 }
@@ -20,7 +20,7 @@ nav.navbar.bg-body-tertiary.fixed-top {
 }
 .banners{
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0% !important;
@@ -72,4 +72,61 @@ p.lead {
     border: 2px solid black; /* Adiciona uma borda preta */
     border-radius: 50%;
  
+}
+h2.display-6 {
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o título em negrito */
+    color: #4A4A4A; /* Cor mais elegante */
+    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+}
+p.lead2 {
+    font-size: 1.2em; /* Ajusta o tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    text-align: justify; /* Justifica o texto */
+    font-style: italic; /* Deixa o texto em itálico */
+    margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+    background-color: #D8AF9D; /* Cor de fundo */
+    padding: 15px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Deixa os cantos arredondados */
+}
+.btn-primary {
+    background-color: #A7776B !important; /* Define a cor de fundo */
+    border-color: #A7776B !important; /* Define a cor da borda */
+}
+
+.btn-secondary {
+    background-color: #A7776B !important; /* Define a cor de fundo */
+    border-color: #A7776B !important; /* Define a cor da borda */
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #8F5E55 !important; /* Cor mais escura ao passar o mouse */
+    border-color: #8F5E55 !important; /* Cor da borda ao passar o mouse */
+}
+.card-title2{
+    font-size: 1.5em; /* Aumenta o tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+.card-stitle {
+    font-size: 1.1em; /* Tamanho da fonte do título */
+    text-align: center; /* Centraliza o título */
+    text-align: left; /* Alinha o texto à esquerda */
+    
+}
+.card-text2{
+    font-size: 1.0em; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    text-align: justify; /* Justifica o texto */
+    
+}
+.card-img-top {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+    height: 350px; /* Define uma altura fixa */
+    object-fit: cover; /* Ajusta a imagem para caber no espaço sem distorção */
+    border-radius: 8px; /* Opcional: adiciona cantos arredondados */
 }
