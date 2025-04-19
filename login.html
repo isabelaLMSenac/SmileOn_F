@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar-expand-lg navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./imgs/Logo sem fundo, Branca 1.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nossos serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Agende sua consulta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                      <label class="form-check-label" for="switchCheckDefault">Modo noturno</label>
+                    </div></a>
+                  </li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+  <div class="login-container">
+    <div class="logo">
+      <p>DRA. LETÍCIA MOLINA</p>
+      <p class="sub">Cirurgia Dentista</p>
+      <div class="icon">🦷</div>
+    </div>
+
+    <div class="login-box">
+    <div class="login">
+      <div class="input-group">
+        <span class="icon">👤</span>
+        <input type="text" placeholder="Digite seu CPF">
+      </div>
+      <div class="input-group">
+        <span class="icon">🔒</span>
+        <input type="password" placeholder="Digite sua senha">
+      </div>
+    </div>
+
+      <button class="login-btn">LOGIN</button>
+    </div>
+  </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>

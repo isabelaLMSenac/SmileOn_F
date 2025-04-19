@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    background-color: #E5D1CA !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  nav.navbar.bg-body-tertiary{
+    background-color: #D8AF9D !important; /* Certifique-se de que não há cor de fundo que pareça uma borda */
+    height: 100px !important; /* Altura do navbar */
+}
+.container-fluid {
+    padding-top: 0%;
+    background-color: #D8AF9D; /* Cor personalizada */
+    color: white; /* Cor do texto */
+}
+  
+  .login-container {
+
+    text-align: center;
+    width: 65%;
+    height: 70vh; /* Altere para 70% da altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente na tela */
+  }
+  
+  .logo {
+    margin-bottom: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    top: 20px;
+  }
+  
+  .logo .sub {
+    font-size: 0.8rem;
+    font-weight: normal;
+    opacity: 0.8;
+  }
+  
+  .logo .icon {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .login-box {
+    background-color: #d6aa99;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 95%;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    width: 50%;
+  }
+  
+  .input-group .icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #a67566;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    width: 50%;
+  }
+  
+  .input-group input::placeholder {
+    color: #f5f5f5;
+  }
+  .login{
+    margin-top: 5%;
+  }
+  
+  .login-btn {
+    margin-top: 1rem;
+    background-color: #a67566;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 1rem 1rem 1rem 1rem;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  @media (max-width: 500px) {
+    .input-group {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .input-group .icon {
+      margin-bottom: 0.5rem;
+      margin-right: 0;
+    }
+  }
+  

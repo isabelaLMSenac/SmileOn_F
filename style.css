@@ -124,9 +124,51 @@ p.lead2 {
     text-align: justify; /* Justifica o texto */
     
 }
+h2.display-7 {
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o título em negrito */
+    color: #4A4A4A; /* Cor mais elegante */
+    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+}
 .card-img-top {
     width: 100%; /* Garante que a imagem ocupe toda a largura do card */
     height: 350px; /* Define uma altura fixa */
     object-fit: cover; /* Ajusta a imagem para caber no espaço sem distorção */
     border-radius: 8px; /* Opcional: adiciona cantos arredondados */
+}
+/* Estilo para o footer */
+footer.custom-footer {
+    margin-top: 5%;
+    background-color: #D8AF9D !important; /* Cor de fundo */
+    position: relative;
+    padding: 20px 0; /* Espaçamento interno */
+}
+
+footer.custom-footer p {
+    margin: 0; /* Remove margens do texto */
+    text-align: center; /* Centraliza o texto */
+    font-size: 0.9em; /* Tamanho do texto */
+}
+
+footer.custom-footer .social-icons {
+    position: absolute;
+    right: 20px; /* Alinha os ícones à direita */
+    top: 50%;
+    transform: translateY(-50%); /* Centraliza verticalmente */
+}
+
+footer.custom-footer .social-icons a {
+    text-decoration: none; /* Remove o sublinhado */
+    margin-left: 10px; /* Espaçamento entre os ícones */
+}
+
+footer.custom-footer .social-icons img {
+    width: 30px; /* Tamanho dos ícones */
+    transition: transform 0.3s ease; /* Animação suave */
+}
+
+footer.custom-footer .social-icons img:hover {
+    transform: scale(1.2); /* Aumenta o tamanho ao passar o mouse */
 }
