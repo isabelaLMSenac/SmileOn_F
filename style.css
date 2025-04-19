@@ -1,23 +1,75 @@
+html, body {
+    background-color: #E5D1CA !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav.navbar.bg-body-tertiary.fixed-top {
+    background-color: #D8AF9D !important; /* Certifique-se de que não há cor de fundo que pareça uma borda */
+    height: 100px !important; /* Altura do navbar */
+}
 .container-fluid {
     padding-top: 0%;
     background-color: #D8AF9D; /* Cor personalizada */
     color: white; /* Cor do texto */
 }
 .banner-1{
-    background-image: url(./imgs/sorriso1.jpg);
-    margin-top: 0; /* Remove qualquer margem superior do banner */
-    padding-top: 0;
+    background-image: url(./imgs/sorriso.png);
+    margin-top: 0 !important; /* Remove qualquer margem superior do banner */
+    padding-top: 0 !important;
 }
 .banners{
     width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0%;
-    padding-top: 0%;
+    margin-top: 0% !important;
+    padding-top: 0% !important;
     background-position: center;
 }
 main {
-    margin-top: 0; /* Remove qualquer margem superior do main */
-    padding-top: 0; /* Remove qualquer padding superior do main */
+    margin-top: 0 !important; /* Remove qualquer margem superior do main */
+    padding-top: 0 !important; /* Remove qualquer padding superior do main */
+}
+h2.display-5 {
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o título em negrito */
+    color: #4A4A4A; /* Cor mais elegante */
+    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+}
+
+/* Estilo para o subtítulo da seção */
+p.lead {
+    font-size: 1.2em; /* Ajusta o tamanho da fonte */
+    color: #000000; /* Cor mais suave */
+    font-style: italic; /* Deixa o texto em itálico */
+    margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+}
+.card-body {
+    background-color: #D8AF9D; /* Cor de fundo dos cards */
+    color: white; /* Cor do texto para contraste */
+}
+.card-text{
+    font-size: 1.2em; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+}
+.card-title {
+    font-size: 1.5em; /* Tamanho da fonte do título */
+    text-align: center; /* Centraliza o título */
+}
+.card-icon {
+    text-align: center; /* Centraliza o ícone */
+    margin-bottom: 15px; /* Espaçamento abaixo do ícone */
+    padding: 10px;
+}
+
+.card-icon img {
+    width: 60px; /* Ajuste o tamanho da imagem */
+    height: 60px; /* Mantém a proporção */
+    border: 2px solid black; /* Adiciona uma borda preta */
+    border-radius: 50%;
+ 
 }
