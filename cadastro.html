@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Paciente</title>
+  <link rel="stylesheet" href="cadrastro.css">
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./imgs/Logo sem fundo, Branca 1.png" alt="Logo"></a>
+             <nav class="menu">
+                <button>Home</button>
+                <button>Agende sua consulta</button>
+                <button>Contato</button>
+                <div class="menu-toggle">&#9776;</div>
+              </nav>
+  </header>
+
+  <h1>Cadastro Paciente</h1>
+  <form>
+    <fieldset>
+      <legend>Dados</legend>
+      <label>Nome Completo:</label><input type="text"><br>
+      <label>CPF:</label><input type="text">
+      <label>RG:</label><input type="text"><br>
+      <label>Data de Nascimento:</label><input type="date">
+      <label>Sexo:</label>
+      <span class="radio-group"><input type="radio" name="sexo"> M</span>
+      <span class="radio-group"><input type="radio" name="sexo"> F</span>
+      <span class="radio-group"><input type="radio" name="sexo"> Outro</span><br>
+      <label>Estado Civil:</label><input type="text">
+    </fieldset>
+
+    <fieldset>
+      <legend>Contato</legend>
+      <label>Telefone:</label><input type="text">
+      <label>E-Mail:</label><input type="email"><br>
+      <label>Responsável (se menor):</label><input type="text">
+    </fieldset>
+
+    <fieldset>
+      <legend>Endereço</legend>
+      <div class="row">
+        <div><label>Rua:</label><input type="text"></div>
+        <div><label>Complemento:</label><input type="text"></div>
+        <div><label>Número:</label><input type="text"></div>
+        <div><label>Bairro:</label><input type="text"></div>
+        <div><label>Cidade:</label><input type="text"></div>
+        <div><label>Estado:</label><input type="text"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações Clínicas</legend>
+      <label>Alergias:</label><input type="text"><br>
+      <label>Doenças Pré-Existentes:</label><input type="text"><br>
+      <label>Medicamentos Contínuos:</label><input type="text">
+    </fieldset>
+  </form>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav');
+  
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+  
+</body>
+</html>
